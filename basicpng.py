@@ -215,7 +215,7 @@ class PngDecode:
             # Adam7 is the only interlacing method, apart from "None"
             raise Exception(f"Only interlace method 0 (no interlace) is supported! Adam7 is not, found {self.interlace}")
 
-        print(f"w={self.w} h={self.h} bit_depth={self.bit_depth} num_channels={self.num_channels} color_type={self.color_type}")
+        #print(f"w={self.w} h={self.h} bit_depth={self.bit_depth} num_channels={self.num_channels} color_type={self.color_type}")
 
     def IDAT(self, bchd):
         """
